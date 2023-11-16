@@ -1,0 +1,36 @@
+.sample-box{
+    position: relative;
+}
+
+.sample_box {
+    position: relative;
+  }
+  
+  .first_box {
+    position: relative;
+    z-index: 1;
+    border: 2px solid black;
+    height: 100px;
+    width:900px;
+    margin: 30px;
+  }
+  
+  .second_box {
+    position: absolute;
+    z-index: 3; /* gray box will be above both green and black box */
+    background: lightgray;
+    height: 60px;  
+    width: 70%;
+    left: 50px;
+    top: 50px;
+  }
+  
+  .third_box {
+    position: absolute;
+    z-index: 2; /* green box will be above black box */
+    background: lightgreen;
+    width: 35%;
+    left: 270px;
+    top: 13px;
+    height: 100px;
+  }

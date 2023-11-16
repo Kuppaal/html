@@ -1,0 +1,36 @@
+
+ul{
+    list-style: none;
+}
+
+
+
+
+ul li::before{
+    content: "\2022";
+    color: rgb(47, 210, 35);
+    font-weight: bold;
+    display:inline-block;
+    width: 1em;
+   
+
+
+}
+
+ol {
+    list-style: none; 
+    counter-reset: li
+}
+
+li::before {
+    content: counter(li); 
+    color: rgb(37, 59, 228);
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em}
+
+    li {
+        counter-increment: li
+    }
+
+   
