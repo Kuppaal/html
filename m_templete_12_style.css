@@ -1,0 +1,150 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #212529;
+    width: 100%;
+    
+}
+
+.navbar a {
+    float: left;
+    color: #9B9D8D;
+    padding:14px 7px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar .last {
+    padding-right: 100px;
+}
+
+.navbar .first_menu {
+    color: white;
+    padding-left: 100px;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+   opacity: 0.7;
+}
+
+.right_nav{
+    float: right;
+}
+
+
+.bg_img {
+    background-image: url("black_sea.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    box-sizing: border-box;
+}
+
+.gray_img {
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    padding-bottom: 1.5cm !important;
+    padding-top: 2cm;
+}
+.gray_img img{
+    border-radius: 50%;
+}
+.text_center {
+    text-align: center;
+    color: aliceblue;
+    line-height: 1.5;
+
+}
+
+.text_center p {
+    opacity: 0.5;
+}
+
+
+.f_passage {
+    padding: 100px 400px;
+    box-sizing: border-box;
+    text-align: left;
+
+}
+.f_passage h2{
+    font-size: 2rem;
+    font-weight: 530;
+    line-height: 1.5;
+}
+.f_para{
+    font-size: 1.25rem;
+    font-weight: 300 !important;
+    opacity: 0.6;
+    line-height: 1.5;
+}
+.s_para{
+    font-size: 1.25rem;
+    font-weight: 300 !important;
+    line-height: 1.5;
+    opacity: 0.9;
+}
+
+.moon {
+    background-image: url("black_sky.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    box-sizing: border-box;
+
+}
+
+.s_passage{
+    padding: 100px 400px;
+    box-sizing: border-box;
+    text-align: left; 
+}
+.s_passage h2{
+    font-size: 2rem;
+    font-weight: 530;
+    line-height: 1.5;
+}
+.footer p {
+
+    margin-top: 50px;
+    text-align: center;
+    padding: 50px;
+    background-color: #212529;
+    width: 100%;
+    box-sizing: border-box;
+    color: white;
+    overflow-x: hidden;
+  
+  }
+
+
+  @media(max-width:800px){
+ .navbar a{
+    float: none;
+    display: flex;
+   flex-direction: column;
+   text-align: left;
+    
+  }
+
+  .right_nav{
+    float: none;
+  }
+  .f_passage{
+     padding: 50px 50px;
+  }
+  .s_passage{
+    padding: 50px 50px;
+  }
+  }
